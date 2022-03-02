@@ -1,0 +1,339 @@
+{
+    "jobs":[
+        {
+            "uuid":"3212-3d12-d8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.34%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"3212-8d12-d8e1",
+            "product-id":"0384422",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.54%",
+             "processing-time" : "4.7"
+
+        },
+        {
+            "uuid":"3112-dd12-d831",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:17:05",
+             "Description" : "A very good product",
+             "result" : "good",
+             "defect" : "smal scratch detected",
+             "delta" : "0.14%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"1312-1d12-d8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "good",
+             "defect" : "smal scratch detected",
+             "delta" : "0.34%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"3242-b312-d8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:45",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.04%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"1262-ad12-d8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "good",
+             "defect" : "smal scratch detected",
+             "delta" : "0.34%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"3272-9312-d8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:45",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.04%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"1212-8d12-d8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "good",
+             "defect" : "smal scratch detected",
+             "delta" : "0.34%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"3212-7312-d8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:45",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.04%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"1212-6d12-d8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "good",
+             "defect" : "smal scratch detected",
+             "delta" : "0.34%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"3212-5312-d8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:45",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.04%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"1212-4d12-d8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "good",
+             "defect" : "smal scratch detected",
+             "delta" : "0.34%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"3212-2312-d8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:45",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.04%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"1212-1d12-d8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "good",
+             "defect" : "smal scratch detected",
+             "delta" : "0.34%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"3212-3312-f8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:45",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.04%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"1212-3d12-d8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "good",
+             "defect" : "smal scratch detected",
+             "delta" : "0.34%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"3212-3312-s8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:45",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.04%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"1212-3d12-a8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "good",
+             "defect" : "smal scratch detected",
+             "delta" : "0.34%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"3212-3312-08e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:45",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.04%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"1212-3d12-98e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "good",
+             "defect" : "smal scratch detected",
+             "delta" : "0.34%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"3212-3312-88e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:45",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.04%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"1212-3d12-78e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "good",
+             "defect" : "smal scratch detected",
+             "delta" : "0.34%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"3212-3312-68e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:45",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.04%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"1212-3d12-58e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "good",
+             "defect" : "smal scratch detected",
+             "delta" : "0.34%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"3212-3312-48e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:45",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.04%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"1212-3d12-38e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "good",
+             "defect" : "smal scratch detected",
+             "delta" : "0.34%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"3212-3312-28e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:45",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.04%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"1212-3d12-18e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:05",
+             "Description" : "A very good product",
+             "result" : "good",
+             "defect" : "smal scratch detected",
+             "delta" : "0.34%",
+             "processing-time" : "4.2"
+
+        },
+        {
+            "uuid":"3212-3322-d8e1",
+            "product-id":"0384622",
+             "timestamp" : "2022-11-23 22:12:45",
+             "Description" : "A very good product",
+             "result" : "bad",
+             "defect" : "smal scratch detected",
+             "delta" : "0.04%",
+             "processing-time" : "4.2"
+
+        }
+    ],
+
+  "analytic":
+  {
+        "Monday":
+        {
+            "good":"20032",
+            "too-large" : "3948",
+            "too-small" : "474"
+        },
+        "Tuseday":
+        {
+            "good":"20032",
+            "too-large" : "3948",
+            "too-small" : "474"
+        }
+  }  
+}
