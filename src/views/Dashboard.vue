@@ -312,16 +312,23 @@ export default {
       let goodJobCount= new Array();
       let badJobCount= new Array();
 
-      
+      var dateArray = new Array();
+    var currentDate = new Date (this.DateRange.start);
+    while (currentDate <= new Date(this.DateRange.end) ){
+        dates.push(new Date (currentDate));
+        currentDate = currentDate.setDate(currentDate+1);
+         goodJobCount.push(0);
+        badJobCount.push(0);
+    }
 
       for (let i = 0; i < this.jobs.length; i++) {
-          let date = this.jobs[i].timestamp.substring(0,10);
+          let date = new Date(this.jobs[i].timestamp.substring(0,10));
           //add date if not exist
-          if(!dates.includes(date)){
-            dates.push(date);
-            goodJobCount.push(0);
-            badJobCount.push(0);
-          }
+          // if(!dates.includes(date)){
+          //   dates.push(date);
+          //   goodJobCount.push(0);
+          //   badJobCount.push(0);
+          // }
           //find index of date
           let index = dates.indexOf(date);
 

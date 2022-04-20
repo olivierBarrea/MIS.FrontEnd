@@ -5,8 +5,16 @@
       <div class="row">
         <div class="col-9"></div>
          
+        <!-- <div class="col-1 float-end">
+          <img class="pull-right" src="../assets/image/DRay.png" />
+        </div> -->
         <div class="col-1 float-end">
-          <img class="pull-right" src="../assets/image/pollman.png" />
+        <figure>
+            <a v-bind:href="logoUrl" download target="_blank">
+              <img v-bind:src="logoUrl"  class="pull-right" />
+              <!-- <figcaption>caption</figcaption> -->
+          </a>
+          </figure>
         </div>
       </div>
       <!--header-->
@@ -143,7 +151,8 @@ export default {
     return{
     image_uuids:[],
     imagesUrl:[],
-    measurements:[]
+    measurements:[],
+    logoUrl:'',
     }
   },
 
@@ -178,6 +187,38 @@ export default {
       }   
   }
   console.log(this.measurements);
+
+    //get logo
+    console.log("downloading logo");
+     await axios({
+          method: "POST",
+          url: "http://10.1.100.222:5080/v1/graphql",
+          data: {
+            query: `{
+                          deltaray_batch(where: {uuid: {_eq: "`+ this.job.batch_uuid+`"}}) {
+                          uuid
+                          logo
+                          description
+                        }
+                        
+                    }
+                      `,
+          },
+        }).then(async (result) => {
+          console.log(result);
+          const logo = result.data.data.deltaray_batch[0].logo;
+          console.log(logo);
+          //create image Url
+         
+          this.logoUrl = "http://10.1.100.222:3000/api/v1/assets/image/" + logo;
+          
+
+        }).catch(err => console.log("error downloading logo:" +err));
+
+     
+  
+
+
 
 
     //get images

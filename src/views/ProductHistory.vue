@@ -18,6 +18,7 @@
           <thead>
             <tr>
               <th>Time stamp</th>
+              <th>Batch</th>
              
               <th>Serial Number</th>
               <th>product ID</th>
@@ -30,6 +31,7 @@
               <tr @click="onRowClick(job.uuid)">
                 <td>{{ job.timestamp }}</td>
  
+                <td>{{ job.batch_uuid }}</td>
 
                 <td>{{ job.serial_number }}</td>
                 <td>{{ job.uuid }}</td>
@@ -107,6 +109,7 @@ export default {
                                 deltaray_product(where: {uuid: {_gte: "`+ searchStringStart+`",_lte:"`+searchStringEnd+`"}}, order_by: {timestamp: desc}){
                                 uuid
                                 serial_number
+                                batch_uuid
                                 timestamp
                                 result
                                 fk_result_products {
@@ -137,6 +140,7 @@ export default {
                           deltaray_product(where: {timestamp: {_gte: "`+ range.start +`", _lte: "`+range.end+`T23:59:59+00:00"}}, order_by: {timestamp: desc}) {
                             uuid
                               serial_number
+                              batch_uuid
                               timestamp
                               result
                               fk_result_products {
@@ -170,6 +174,7 @@ export default {
                           deltaray_product(order_by: {timestamp: desc}, limit: 100, where: {timestamp: {_is_null: false}}){
                               uuid
                               serial_number
+                              batch_uuid
                               timestamp
                               result
                               fk_result_products {
